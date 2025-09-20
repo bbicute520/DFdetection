@@ -14,9 +14,9 @@ Mục tiêu chính: xây dựng mô hình machine learning/deep learning có kh�
 ## 🗂️ Cấu trúc repo  
 DFdetection/
     │── data/ # Dataset (Kho dữ liệu chính)
-    │── notebooks/ # Notebook Colab/Python
-    │── src/ # Code nguồn chính
-    │── reports/ # Báo cáo, slide(ppt)
     │── docs/ # Tài liệu liên quan 
+    │── notebooks/ # Notebook Colab/Python
+    │── reports/ # Báo cáo, slide(ppt)
+    │── src/ # Code nguồn chính
     |── README.md # Giới thiệu dự án
 
