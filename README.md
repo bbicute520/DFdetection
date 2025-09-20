@@ -9,14 +9,14 @@ Mục tiêu chính: xây dựng mô hình machine learning/deep learning có kh�
 - Thành viên 1: Lê Đình Huy 
 - Thành viên 2: Đoàn Ngọc Thái  
 - Thành viên 3: Nguyễn Minh Hiếu 
-- Thành viên 4: Nguyễn Văn Năng
+- Thành viên 4: Nguyễn Văn Năng  
 
 ## 🗂️ Cấu trúc repo  
 DFdetection/
-    │── data/ # Dataset (Kho dữ liệu chính)
-    │── docs/ # Tài liệu liên quan 
-    │── notebooks/ # Notebook Colab/Python
-    │── reports/ # Báo cáo, slide(ppt)
-    │── src/ # Code nguồn chính
-    |── README.md # Giới thiệu dự án
+    │── data/ # Dataset (Kho dữ liệu chính)  
+    │── docs/ # Tài liệu liên quan  
+    │── notebooks/ # Notebook Colab/Python  
+    │── reports/ # Báo cáo, slide(ppt)  
+    │── src/ # Code nguồn chính  
+    |── README.md # Giới thiệu dự án  
 
