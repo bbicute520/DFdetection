@@ -58,11 +58,11 @@
 -   **DataLoader**: PyTorch, TensorFlow.  
 
 # Cấu trúc thư mục Data  
-|-Data  
-    |-Train  
-        |-Real  
-        |-Fake  
-    |-Test  
-        |-Real  
-        |-Fake  
-    |-Validation  
+Data/
+├── Train/
+│ ├── Real/
+│ └── Fake/
+├── Test/
+│ ├── Real/
+│ └── Fake/
+└── Validation/
