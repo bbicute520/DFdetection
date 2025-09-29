@@ -8,8 +8,6 @@
 
 **Thư viện**: PyTorch, TensorFlow, torchvision, albumentations.  
 
-------------------------------------------------------------------------
-
 ## 2. Xây dựng mô hình CNN
 
 **Kiến trúc CNN cơ bản**:  
@@ -19,8 +17,6 @@
 **Lựa chọn kiến trúc nâng cao** (nếu cần): ResNet, EfficientNet,MobileNet.  
 
 **Thư viện**: PyTorch (nn.Module, torch.nn.Conv2d), TensorFlow/Keras(Sequential, Conv2D).  
-
-------------------------------------------------------------------------
 
 ## 3. Thiết lập huấn luyện
 
@@ -32,8 +28,6 @@
 
 **Thư viện**: torch.optim, tf.keras.optimizers.  
 
-------------------------------------------------------------------------
-
 ## 4. Training Loop
 
 -   Với PyTorch:  
@@ -44,8 +38,6 @@
 
 **Công cụ hỗ trợ**: tqdm (progress bar), TensorBoard (log).  
 
-------------------------------------------------------------------------
-
 ## 5. Validation & Hyperparameter Tuning
 
 -   Kiểm tra accuracy, precision, recall, F1-score trên validation set.  
@@ -53,8 +45,6 @@
 -   Sử dụng cross-validation nếu dataset nhỏ.  
 
 **Thư viện**: scikit-learn (classification_report, confusion_matrix).  
-
-------------------------------------------------------------------------
 
 ## 6. Đánh giá trên Test Set
 
@@ -64,8 +54,6 @@
 
 **Thư viện**: matplotlib, seaborn.  
 
-------------------------------------------------------------------------
-
 ## 7. Triển khai mô hình
 
 -   Lưu mô hình (PyTorch: .pt, TensorFlow: .h5 hoặc SavedModel).  
@@ -73,8 +61,6 @@
 -   Tích hợp vào ứng dụng (API Flask/FastAPI hoặc app di động).  
 
 **Thư viện**: torch.save, tf.keras.models.save_model, Flask, FastAPI.  
-
-------------------------------------------------------------------------
 
 ## 8. Tổng quan pipeline công cụ
 
