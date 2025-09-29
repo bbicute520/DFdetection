@@ -9,16 +9,12 @@
 
 **Công cụ hỗ trợ**: - `wget`, `kaggle datasets`, `Google Dataset Search` để tải. - `BeautifulSoup`, `Selenium` để crawl web.  
 
-------------------------------------------------------------------------
-
 ## 2. Làm sạch dữ liệu  
 
 -   Loại bỏ ảnh mờ, trùng, không có mặt người.  
 -   Xử lý ảnh lỗi hoặc metadata thiếu.  
 
 **Thư viện**: - `PIL`, `OpenCV`, `scikit-image` để kiểm tra & xử lý ảnh. - `imagehash` để phát hiện ảnh trùng lặp.  
-
-------------------------------------------------------------------------
 
 ## 3. Tiền xử lý dữ liệu  
 
@@ -30,16 +26,12 @@
 
 **Thư viện**: - `OpenCV`, `PIL` → resize, crop. - `MTCNN`, `dlib` → face detection. - `albumentations`, `torchvision.transforms` → augmentation.  
 
-------------------------------------------------------------------------
-
 ## 4. Chuẩn hóa dữ liệu đầu vào
 
 -   Đồng nhất kích thước, hệ màu, giá trị pixel.  
 -   Chia train (70%), validation (15%), test (15%).  
 
 **Công cụ**: - `scikit-learn` → train_test_split. - `pandas` để quản lý metadata.  
-
-------------------------------------------------------------------------
 
 ## 5. Xử lý đặc trưng nâng cao (tùy chọn)  
 
@@ -49,16 +41,12 @@
 
 **Thư viện**: - `numpy.fft`, `scipy.fftpack` → phân tích miền tần số. - `matplotlib`, `seaborn` → visualization.  
 
-------------------------------------------------------------------------
-
 ## 6. Chuẩn bị Data Loader  
 
 -   Tạo batches (vd: 32), shuffle dữ liệu.  
 -   Prefetch/cache để tăng tốc training.  
 
 **Thư viện**: - `PyTorch DataLoader` hoặc `tf.data.Dataset` (TensorFlow). - `tqdm` để theo dõi quá trình loading.  
-
-------------------------------------------------------------------------
 
 ## 7. Tổng quan pipeline công cụ
 
@@ -70,7 +58,6 @@
 -   **DataLoader**: PyTorch, TensorFlow.  
 
 # Cấu trúc thư mục Data  
----
 |-Data  
     |-Train  
         |-Real  
